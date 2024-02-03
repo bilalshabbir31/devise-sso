@@ -3,12 +3,21 @@ AllCops:
     - "lib/**/*"
     - "bin/**/*"
     - vendor/**/*.rb
+Layout/LineLength:
+  Exclude:
+    - config/initializers/devise.rb
 Metrics/MethodLength:
   Exclude:
     - db/migrate/20240203050618_devise_create_users.rb
+Metrics/BlockLength:
+  Exclude: 
+    - config/environments/development.rb
 Metrics/ClassAndModuleChildren:
   Exclude:
     - test/channels/application_cable/connection_test.rb
+Lint/UnderscorePrefixedVariableName:
+  Exclude:
+    - app/controllers/users/sessions_controller.rb
 Style/Documentation:
   Enabled: false
 
