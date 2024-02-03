@@ -10,9 +10,15 @@ Navigate to the project directory.
 
 run these commands step by step in terminal
 
-1. ``` bundle install ``` 
-2. ``` rails db:create ```
-3. ``` rails db:migrate ```
+``` 
+bundle install
+``` 
+```
+rails db:create
+```
+```
+rails db:migrate
+```
 
 Run the Project using
 
