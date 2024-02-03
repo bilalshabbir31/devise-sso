@@ -8,7 +8,7 @@ PostgreSQL
 1. clone this repo
 2. Navigate to the project directory.
 
-run these command
+run these command in terminal
 
 1. bundle install 
 2. rails db:create
@@ -20,4 +20,4 @@ Run the Project using
 
 Navigate to browser
 
-https://localhost:3000
+`https://localhost:3000`
