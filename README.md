@@ -1,4 +1,4 @@
-This Project is to Devise Google Sign integration.
+This Project is a Devise Google Sign-in integration.
 
 # Prerequisites
 1. Ruby 3.3.0
