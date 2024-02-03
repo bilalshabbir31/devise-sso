@@ -5,10 +5,10 @@ This Project is to Devise Google Sign integration.
 2. Rails 7.1.3
 3. PostgreSQL
 
-1. clone this repo
-2. Navigate to the project directory.
+clone this repo
+Navigate to the project directory.
 
-run these command in terminal
+run these commands in terminal
 
 1. `bundle install` 
 2. `rails db:create`
