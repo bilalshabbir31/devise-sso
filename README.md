@@ -1,6 +1,6 @@
 This Project is to Devise Google Sign integration.
 
-#Prerequisites
+# Prerequisites
 1. Ruby 3.3.0
 2. Rails 7.1.3
 3. PostgreSQL
