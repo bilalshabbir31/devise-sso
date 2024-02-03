@@ -1,0 +1,24 @@
+AllCops:
+  Exclude:
+    - "lib/**/*"
+    - "bin/**/*"
+    - vendor/**/*.rb
+Metrics/MethodLength:
+  Exclude:
+    - db/migrate/20240203050618_devise_create_users.rb
+Metrics/ClassAndModuleChildren:
+  Exclude:
+    - test/channels/application_cable/connection_test.rb
+Style/Documentation:
+  Enabled: false
+
+Metrics/AbcSize:
+  Enabled: false
+
+Layout/IndentationConsistency:
+  EnforcedStyle: indented_internal_methods
+
+Layout/SpaceInLambdaLiteral:
+  EnforcedStyle: require_space
+Style/ClassAndModuleChildren:
+  EnforcedStyle: compact
